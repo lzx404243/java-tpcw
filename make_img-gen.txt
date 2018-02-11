@@ -1,0 +1,1057 @@
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o cjpeg.o cjpeg.c
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'cjpeg.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu cjpeg.c -quiet -dumpbase cjpeg.c -mtune=generic -march=x86-64 -auxbase-strip cjpeg.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccVA3xs4.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'cjpeg.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o cjpeg.o /tmp/ccVA3xs4.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o gdfontg.o /home/ubuntu/java-tpcw/tpcw/ImgGen/gd-1.7.2/gdfontg.c
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jcapimin.o jcapimin.c
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'cjpeg.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'gdfontg.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu /home/ubuntu/java-tpcw/tpcw/ImgGen/gd-1.7.2/gdfontg.c -quiet -dumpbase gdfontg.c -mtune=generic -march=x86-64 -auxbase-strip gdfontg.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccF0adVd.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'gdfontg.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o gdfontg.o /tmp/ccF0adVd.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'gdfontg.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcapimin.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jcapimin.c -quiet -dumpbase jcapimin.c -mtune=generic -march=x86-64 -auxbase-strip jcapimin.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccUjSlik.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jcapimin.c:21:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jcapistd.o jcapistd.c
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jccoefct.o jccoefct.c
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcapimin.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jcapimin.o /tmp/ccUjSlik.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcapimin.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcapistd.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jcapistd.c -quiet -dumpbase jcapistd.c -mtune=generic -march=x86-64 -auxbase-strip jcapistd.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccITQAmp.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jcapistd.c:19:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcapistd.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jcapistd.o /tmp/ccITQAmp.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcapistd.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jccoefct.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jccoefct.c -quiet -dumpbase jccoefct.c -mtune=generic -march=x86-64 -auxbase-strip jccoefct.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccg69ueq.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jccoefct.c:15:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jccolor.o jccolor.c
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jccoefct.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jccoefct.o /tmp/ccg69ueq.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jccoefct.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jccolor.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jccolor.c -quiet -dumpbase jccolor.c -mtune=generic -march=x86-64 -auxbase-strip jccolor.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccPkfiwv.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jccolor.c:13:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jcdctmgr.o jcdctmgr.c
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jchuff.o jchuff.c
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jccolor.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jccolor.o /tmp/ccPkfiwv.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jccolor.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcdctmgr.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jcdctmgr.c -quiet -dumpbase jcdctmgr.c -mtune=generic -march=x86-64 -auxbase-strip jcdctmgr.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccwDyKOD.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jcdctmgr.c:16:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcdctmgr.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jcdctmgr.o /tmp/ccwDyKOD.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcdctmgr.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jchuff.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jchuff.c -quiet -dumpbase jchuff.c -mtune=generic -march=x86-64 -auxbase-strip jchuff.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccG2Nw1H.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jchuff.c:19:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jcinit.o jcinit.c
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jcmainct.o jcmainct.c
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jchuff.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jchuff.o /tmp/ccG2Nw1H.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jchuff.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcinit.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jcinit.c -quiet -dumpbase jcinit.c -mtune=generic -march=x86-64 -auxbase-strip jcinit.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/cclwocpR.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jcinit.c:20:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcinit.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jcinit.o /tmp/cclwocpR.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcinit.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcmainct.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jcmainct.c -quiet -dumpbase jcmainct.c -mtune=generic -march=x86-64 -auxbase-strip jcmainct.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccaiwPWT.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jcmainct.c:15:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcmainct.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jcmainct.o /tmp/ccaiwPWT.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jcmarker.o jcmarker.c
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jcmaster.o jcmaster.c
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcmainct.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcmarker.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jcmarker.c -quiet -dumpbase jcmarker.c -mtune=generic -march=x86-64 -auxbase-strip jcmarker.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccCaWDXV.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jcmarker.c:13:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcmarker.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jcmarker.o /tmp/ccCaWDXV.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcmarker.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcmaster.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jcmaster.c -quiet -dumpbase jcmaster.c -mtune=generic -march=x86-64 -auxbase-strip jcmaster.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccTW6lQ4.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jcmaster.c:16:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jcomapi.o jcomapi.c
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcmaster.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jcmaster.o /tmp/ccTW6lQ4.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcmaster.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcomapi.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jcomapi.c -quiet -dumpbase jcomapi.c -mtune=generic -march=x86-64 -auxbase-strip jcomapi.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccvENXc8.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jcomapi.c:14:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcomapi.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jcomapi.o /tmp/ccvENXc8.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcomapi.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcparam.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jcparam.c -quiet -dumpbase jcparam.c -mtune=generic -march=x86-64 -auxbase-strip jcparam.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccgiAbXd.s
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jcparam.o jcparam.c
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jcphuff.o jcphuff.c
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jcparam.c:15:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcparam.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jcparam.o /tmp/ccgiAbXd.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcparam.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcphuff.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jcphuff.c -quiet -dumpbase jcphuff.c -mtune=generic -march=x86-64 -auxbase-strip jcphuff.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccqfIcfj.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jcphuff.c:17:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jcprepct.o jcprepct.c
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jcsample.o jcsample.c
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcphuff.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jcphuff.o /tmp/ccqfIcfj.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcphuff.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcprepct.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jcprepct.c -quiet -dumpbase jcprepct.c -mtune=generic -march=x86-64 -auxbase-strip jcprepct.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccNJPXQj.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jcprepct.c:19:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcprepct.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jcprepct.o /tmp/ccNJPXQj.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcprepct.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcsample.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jcsample.c -quiet -dumpbase jcsample.c -mtune=generic -march=x86-64 -auxbase-strip jcsample.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccYNd1Zo.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jdatadst.o jdatadst.c
+In file included from jpeglib.h:1092:0,
+                 from jcsample.c:50:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcsample.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jcsample.o /tmp/ccYNd1Zo.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jcsample.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jdatadst.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jdatadst.c -quiet -dumpbase jdatadst.c -mtune=generic -march=x86-64 -auxbase-strip jdatadst.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccR4Eh9s.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jdatadst.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jdatadst.o /tmp/ccR4Eh9s.s
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jerror.o jerror.c
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jfdctflt.o jfdctflt.c
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jfdctfst.o jfdctfst.c
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jdatadst.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jerror.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jerror.c -quiet -dumpbase jerror.c -mtune=generic -march=x86-64 -auxbase-strip jerror.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccqFURsv.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jerror.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jerror.o /tmp/ccqFURsv.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jerror.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jfdctflt.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jfdctflt.c -quiet -dumpbase jfdctflt.c -mtune=generic -march=x86-64 -auxbase-strip jfdctflt.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccz42H1A.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jfdctflt.c:39:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jfdctflt.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jfdctflt.o /tmp/ccz42H1A.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jfdctflt.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jfdctfst.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jfdctfst.c -quiet -dumpbase jfdctfst.c -mtune=generic -march=x86-64 -auxbase-strip jfdctfst.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccjnbLfE.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jfdctint.o jfdctint.c
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jmemmgr.o jmemmgr.c
+In file included from jpeglib.h:1092:0,
+                 from jfdctfst.c:35:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jfdctfst.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jfdctfst.o /tmp/ccjnbLfE.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jfdctfst.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jfdctint.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jfdctint.c -quiet -dumpbase jfdctint.c -mtune=generic -march=x86-64 -auxbase-strip jfdctint.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccSDfNmG.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jfdctint.c:28:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jfdctint.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jfdctint.o /tmp/ccSDfNmG.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jfdctint.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jmemmgr.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jmemmgr.c -quiet -dumpbase jmemmgr.c -mtune=generic -march=x86-64 -auxbase-strip jmemmgr.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccYyWZYH.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jmemmgr.c:30:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jmemnobs.o jmemnobs.c
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jmemmgr.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jmemmgr.o /tmp/ccYyWZYH.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jmemmgr.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jmemnobs.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jmemnobs.c -quiet -dumpbase jmemnobs.c -mtune=generic -march=x86-64 -auxbase-strip jmemnobs.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/cccHs8RO.s
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jmemnobs.c:20:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jmemnobs.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jmemnobs.o /tmp/cccHs8RO.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jmemnobs.o' '-mtune=generic' '-march=x86-64'
+Using built-in specs.
+COLLECT_GCC=gcc
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jutils.o' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/cc1 -quiet -v -I /home/ubuntu/java-tpcw -imultiarch x86_64-linux-gnu jutils.c -quiet -dumpbase jutils.c -mtune=generic -march=x86-64 -auxbase-strip jutils.o -O -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccTFlxmR.s
+gcc -O -v -I/home/ubuntu/java-tpcw -c -o jutils.o jutils.c
+gcc -o tpcwIMG cjpeg.o gdfontg.o jcapimin.o jcapistd.o jccoefct.o jccolor.o jcdctmgr.o jchuff.o jcinit.o jcmainct.o jcmarker.o jcmaster.o jcomapi.o jcparam.o jcphuff.o jcprepct.o jcsample.o jdatadst.o jerror.o jfdctflt.o jfdctfst.o jfdctint.o jmemmgr.o jmemnobs.o jutils.o -lm
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/ubuntu/java-tpcw
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C (Ubuntu 4.8.4-2ubuntu1~14.04.3) version 4.8.4 (x86_64-linux-gnu)
+	compiled by GNU C version 4.8.4, GMP version 5.1.3, MPFR version 3.1.2-p3, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=97 --param ggc-min-heapsize=127035
+Compiler executable checksum: a0a649d344b1ed798e33d30772d46437
+In file included from jpeglib.h:1092:0,
+                 from jutils.c:16:
+jpegint.h:284:30: warning: backslash and newline separated by space [enabled by default]
+ #define RIGHT_SHIFT(x,shft)  \ 
+ ^
+jpegint.h:285:28: warning: backslash and newline separated by space [enabled by default]
+  ((shift_temp = (x)) < 0 ? \ 
+ ^
+jpegint.h:286:62: warning: backslash and newline separated by space [enabled by default]
+   (shift_temp >> (shft)) | ((~((INT32) 0)) << (32-(shft))) : \ 
+ ^
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jutils.o' '-mtune=generic' '-march=x86-64'
+ as -v -I /home/ubuntu/java-tpcw --64 -o jutils.o /tmp/ccTFlxmR.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-v' '-I' '/home/ubuntu/java-tpcw' '-c' '-o' 'jutils.o' '-mtune=generic' '-march=x86-64'
